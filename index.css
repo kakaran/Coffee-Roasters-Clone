@@ -51,7 +51,9 @@
 }
 .poster
 {
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
+    margin-bottom: 130px;
+
 }
 .poster_detail
 {
@@ -80,8 +82,9 @@
 }
 .product_container
 {
-    border:1px solid green;
+    /* border:1px solid green; */
     margin-top:30px;
+    margin-bottom: 120px;
     
 }
 .product_background
@@ -99,7 +102,7 @@
 .product
 {
     display: flex;
-    border:1px solid black;
+    /* border:1px solid black; */
     width: 82%;
     /* margin-top: 250px; */
     flex-direction: row;
@@ -119,7 +122,7 @@
 }
 .quality_container
 {
-    border:1px solid yellow;
+    /* border:1px solid yellow; */
     margin-top:30px;
 }
 .quality_message
@@ -140,16 +143,65 @@
 }
 .quality_card_conteiner
 {
-    border:1px solid blue;
+    /* border:1px solid blue; */
     height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom:200px;
 }
 .card
 {
-    border:1px solid pink;
+    /* border:1px solid pink; */
     width:350px;
-    height: 400px;
+    height: 370px;
     background-color: #0E8784;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.create_plan
+{
+    border: 1px solid tomato;
+    width:1155px;
+    height:600px;
+    margin-left: 55px;
+}
+.design
+{
+    display: flex;
+    flex-direction: row;
+    border:1px solid black;
+}
+.circle
+{
+    width: 25px;
+    height: 25px;
+    border:2px solid #0E8784;
+    border-radius: 50%;
+
+}
+.line
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 340px;
+}
+.create_plan_cards
+{
+    border:1px solid slateblue;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+}
+.plan_card
+{
+    width:250px;
+    border:1px solid black;
+
 }

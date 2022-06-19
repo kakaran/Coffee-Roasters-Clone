@@ -115,11 +115,12 @@
     font-size:170px;
     font-weight: bolder;
     color: #BDBFC0;
-    text-shadow: 0 0 10px rgba(176, 174, 174, 0.552);
-    text-shadow: 0 0 10px rgba(176, 174, 174, 0.552);
+    /* text-shadow: 0 0 10px rgba(176, 174, 174, 0.552);
+    text-shadow: 0 0 10px rgba(176, 174, 174, 0.552); */
     font-family: 'Fraunces', serif;
     word-spacing: 45px;
     text-align: center;
+    filter: drop-shadow(1px 0 10px gray);
 
 }
 .product

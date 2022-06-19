@@ -143,6 +143,10 @@
     align-items: center;
     justify-content: space-around;
 }
+.cont img{
+    width:250px; 
+    cursor: pointer;
+}
 .cont_text h3
 {
     color:#333D4B;
@@ -233,6 +237,12 @@
     width:1155px;
     height:750px;
     margin-left: 55px;
+}
+.create_plan h2
+{
+    color: #83888F;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
 }
 .design
 {
@@ -457,9 +467,9 @@
 @media only screen and (max-width:590px){
     .body
     {
-        padding-left: 15px;
-        padding-right: 15px;
-        width:340px;
+        padding-left: 0%;
+        padding-right: 0%;
+        /* width:340px; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -469,6 +479,11 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+    .nav_name h3
+    {
+        padding-left: 15px;
+        padding-bottom: 20px;
     }
     .nav_Elements
     {
@@ -480,7 +495,7 @@
         font-size: 15px;
     }
     .main{
-        width:380px;
+        width:340px;
     }
     .poster{
         width:380px;
@@ -490,9 +505,156 @@
         height:550px
     }
     .poster_detail{
-        width:320px;
-        margin-left:40px ;
+        width:290px;
+        margin-left:30px ;
         text-align: center;
     }
+    .poster_detail h2{
+        font-size:40px
+    }
+    .product_background
+    {
+        font-size:40px;
+        word-spacing: 0px;
+        text-align: center;
+        margin: 0%;
+        padding-bottom: 30px;
+    }
+    .product_container
+    {
+        width: 340px;
+        margin: 0%;
+        margin-right: 0%;
+    }
+    .product
+    {
+        display: flex;
+        flex-direction: column;
+        bottom:0px;
+        margin: 0px;
+        align-items: center;
+        width: auto;
+    }
+    .cont{
+        display: flex;
+        flex-direction: column;
+        width: 190px;
+    }
+    .cont img{
+        width:150px;
+    }
+    .cont_text h3
+    {
+        padding-top:10px;
+        font-size:19px;
+    }
+    .cont_text p
+    {
+        font-size:11px;
+    }
+    .quality_container
+    {
+        width:340px;
+        height: 1500px;
+    }
+    .message_text h2
+    {
+        padding: 0%;
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .message_text p
+    {
+        font-size:15px;
+        text-align: justify;
+    }
+    .quality_card_conteiner
+    {
+        display: flex;
+        flex-direction: column;
+        height: 1100px;
+        bottom: 600px;
+        align-items: center;
+    }
+    .card
+    {
+        width:280px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+    .quality_message
+    {
+        height:900px;
+    }
+    .create_plan
+    {
+        width:280px
+    }
+    .create_plan h2
+    {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .design
+    {
+        display:none;
+    }
+    .create_plan_cards
+    {
+        display: flex;
+        flex-direction: column;
+        /* width: 300px; */
+        /* margin-right: 1px; */
+        align-items: center;
+        height: 900px;
+    }
+    .create_plan
+    {
+        width: 340px;
+        margin: 0%;
+        height: 1100px;
+    }
+    
+    .plan_card
+    {
+        width: 280px;
+        padding: 0%;
+        margin-bottom: 20px;
+    }
+    .plan_card h1
+    {
+        text-align: center;
+    }
+    .plan_card h2
+    {
+        text-align: center;
+    }
+    .plan_card p
+    {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .button_contanier
+    {
+        text-align: center;
+    }
+    .footer
+    {
+        width:280px;
+    }
+    .footer_name h3{
+         font-size: 20px;
 
+    }
+    .footer_elements
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .elements
+    {
+        padding-bottom:20px ;
+    }
 }

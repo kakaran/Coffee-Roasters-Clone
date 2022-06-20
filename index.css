@@ -363,6 +363,11 @@
         width:550px;
         height:510px
     }
+    .poster_detail{
+        width:300px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
     .poster_detail h2
     {
         font-size: 50px;
